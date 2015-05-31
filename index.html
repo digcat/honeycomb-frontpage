@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en_GB" xml:lang="en_GB">
 <head>
-   <title>Honeycomb &raquo; Login</title>
+   <title>Bee Honeycomb &raquo; Login</title>
    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
    <script type="text/javascript" src="/share/service/messages_113f7a8a4677a0966ad928e4349617b7.js?locale=en_GB"></script>
          <script type="text/javascript">
@@ -44,7 +44,7 @@
       Alfresco.constants.PROXY_URI = window.location.protocol + "//" + window.location.host + "\/share/proxy/alfresco/";
       Alfresco.constants.PROXY_URI_RELATIVE = "\/share/proxy/alfresco/";
       Alfresco.constants.PROXY_FEED_URI = window.location.protocol + "//" + window.location.host + "\/share/proxy/alfresco-feed/";
-      Alfresco.constants.THEME = "lightTheme";
+      Alfresco.constants.THEME = "alfrescoThemes_beeTheme";
       Alfresco.constants.URL_CONTEXT = "\/share/";
       Alfresco.constants.URL_RESCONTEXT = "\/share/res/";
       Alfresco.constants.URL_PAGECONTEXT = "\/share/page/";
@@ -148,20 +148,17 @@
    <script type="text/javascript" src="/share/res/rm/js/event-delegator_706ded03c3626b45142bb90f84fdc6c6.js"></script>
    <script type="text/javascript" src="/share/res/rm/modules/create-site_0b88cdb0f71b3d56817d57654e763089.js"></script>
    <script type="text/javascript" src="/share/res/components/guest/login_f733582fcb12bcceb9b5c2b2d18f9e7c.js"></script>
-   <script type="text/javascript" src="/share/res/extras/components/guest/custom-guest-reset-password_8a29909a4b556a07c38ba08f7faacd79.js"></script>
-   <script type="text/javascript" src="/share/res/modules/simple-dialog_e088999efe9595ceb63324bca13e5b81.js"></script>
    <script type="text/javascript">//<![CDATA[
 new Alfresco.component.Login("page_x002e_components_x002e_slingshot-login_x0023_default").setOptions({"lastUsername": null, "error": false, "errorDisplay": "container"}).setMessages({});
-new Extras.ResetPasswordDialog("page_x002e_components_x002e_slingshot-login_x0023_default").setOptions({}).setMessages({});
 //]]></script>
    <style type="text/css" media="screen">
       @import url("/share/res/css/yui-fonts-grids_fe8fbe97553ea9e004731970a95a499b.css");
       @import url("/share/res/yui/columnbrowser/assets/columnbrowser_a6ca750d53c6b6c201614545f6c33ee7.css");
       @import url("/share/res/yui/columnbrowser/assets/skins/default/columnbrowser-skin_8d0c089e2ba8e57eaf72126e1fff5581.css");
-      @import url("/share/res/themes/lightTheme/yui/assets/skin_02f1761f307a515ba38a7fa0b4ee7c86.css");
+      @import url("/share/res/themes/alfrescoThemes_beeTheme/yui/assets/skin_dbcdc329bfe704b72b6011694686e79d.css");
       @import url("/share/res/css/base_c5b2c77cb830ac5b125af0efa5e19ac1.css");
       @import url("/share/res/css/yui-layout_dcf75721dfd8e8e7c46cdcf6a269cedd.css");
-      @import url("/share/res/themes/lightTheme/presentation_c6e759e694404a65d5f581153e2f7136.css");
+      @import url("/share/res/themes/alfrescoThemes_beeTheme/presentation_22d024e73a4ebe6871624512bc9858eb.css");
       @import url("/share/res/modules/create-site_060e2af3cb1bff4b25dc9a4fcdd024a4.css");
    </style>
 
@@ -175,15 +172,12 @@ new Extras.ResetPasswordDialog("page_x002e_components_x002e_slingshot-login_x002
 
    <style type="text/css" media="screen">
       @import url("/share/res/components/guest/login_c9e20d39bdbdb4654ad595318da6c354.css");
-      @import url("/share/res/extras/components/guest/custom-guest-reset-password_6b814d0eaca04a929e61103ad683801c.css");
    </style>
 
    
 
    <!-- Icons -->
-
-    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
-
+	 <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico"/>
 
    
 
@@ -209,7 +203,7 @@ new Extras.ResetPasswordDialog("page_x002e_components_x002e_slingshot-login_x002
    </script>
 </head>
 
-<body id="Share" class="yui-skin-lightTheme alfresco-share alfresco-guest claro">
+<body id="Share" class="yui-skin-alfrescoThemes_beeTheme alfresco-share alfresco-guest claro">
    <div class="sticky-wrapper">
       <div id="doc3">
 <div id="page_x002e_components_x002e_slingshot-login">
@@ -244,8 +238,6 @@ new Extras.ResetPasswordDialog("page_x002e_components_x002e_slingshot-login_x002
             <div class="form-field">
                <input type="submit" id="page_x002e_components_x002e_slingshot-login_x0023_default-submit" class="login-button" value="Login"/>
             </div>
-        <a id="page_x002e_components_x002e_slingshot-login_x0023_default-link" href="#">Forgotten User Name / Password?</a>
-
          </form>
       
          <div class="copy">&copy; 2005-2015 Alfresco Software Inc. All rights reserved.</div>
